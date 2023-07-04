@@ -1,0 +1,27 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "cartodb_id": {
+            "sdtype": "id"
+        },
+        "cri_score": {
+            "sdtype": "numerical"
+        },
+        "fatalities_per_100k_total": {
+            "sdtype": "numerical"
+        },
+        "fatalities_total": {
+            "sdtype": "numerical"
+        },
+        "losses_per_gdp__total": {
+            "sdtype": "numerical"
+        },
+        "losses_usdm_ppp_total": {
+            "sdtype": "numerical"
+        },
+        "rw_country_code": {
+            "sdtype": "id",
+            "regex_format": "[A-Z]{3}"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "primary_key": "ID",
+    "fields": {
+        "ID": {
+            "sdtype": "id",
+            "subtype": "integer"
+        },
+        "LIMIT_BAL": {
+            "sdtype": "numerical", 
+            "subtype": "float"
+        },
+        "SEX": {
+            "type": "categorical"
+        }, 
+        "EDUCATION": {
+            "type": "categorical"
+        },
+        "MARRIAGE": {
+            "type": "categorical"
+        },
+        "AGE": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_0": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_2": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_3": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_4": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_5": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "PAY_6": {
+            "type": "numerical", 
+            "subtype": "integer"
+        },
+        "BILL_AMT1": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "BILL_AMT2": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "BILL_AMT3": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "BILL_AMT4": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "BILL_AMT5": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "BILL_AMT6": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT1": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT2": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT3": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT4": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT5": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "PAY_AMT6": {
+            "type": "numerical",
+            "subtype": "float"
+        },
+        "default.payment.next.month": {
+            "type": "categorical"
+        }
+    }
+}

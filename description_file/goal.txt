@@ -1,0 +1,9 @@
+1.Goal: To show how to overcome problem with lack of historical data--->> Generate synthetic data of 10k columns and evaluate the the quality.
+2. Goal: To show if  we can impute missing values. Condition sampling and check if the missing values matches or not.
+
+3. Goal:To create a scenerio of data(by conditional sampling )
+
+4.Security???????
+
+5.Machine Learning and correlation and importance column to gdp looses
+Machine learning for also uci credit data.???????????

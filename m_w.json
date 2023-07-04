@@ -1,0 +1,50 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "sequence_key": [
+        "Country",
+        "ObjectId"
+    ],
+    "columns": {
+        "ObjectId": { 
+           "sdtype": "id",
+           "regex_format": "^(?:([0-9])+)+$"
+       },
+        "Country": {
+            "sdtype": "id",
+            "regex_format" : "^[A-Z]{4}$"
+        },
+        "Indicator": {
+            "sdtype": "categorical"
+        },
+        "F2013": {
+            "sdtype": "numerical"
+        },
+        "F2014": {
+            "sdtype": "numerical"
+        },
+        "F2015": {
+            "sdtype": "numerical"
+        },
+        "F2016": {
+            "sdtype": "numerical"
+        },
+        "F2017": {
+            "sdtype": "numerical"
+        },
+        "F2018": {
+            "sdtype": "numerical"
+        },
+        "F2019": {
+            "sdtype": "numerical"
+        },
+        "F2020": {
+            "sdtype": "numerical"
+        },
+        "F2021": {
+            "sdtype": "numerical"
+        },
+        "F2022": {
+            "sdtype": "numerical"
+        }
+    }
+}

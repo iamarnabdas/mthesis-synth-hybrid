@@ -1,0 +1,482 @@
+{
+    "meta": {
+        "num_tuples": 1000,
+        "num_attributes": 21,
+        "num_attributes_in_BN": 21,
+        "all_attributes": [
+            "checking_status",
+            "duration",
+            "credit_history",
+            "purpose",
+            "credit_amount",
+            "savings_status",
+            "employment",
+            "installment_commitment",
+            "personal_status",
+            "other_parties",
+            "residence_since",
+            "property_magnitude",
+            "age",
+            "other_payment_plans",
+            "housing",
+            "existing_credits",
+            "job",
+            "num_dependents",
+            "own_telephone",
+            "foreign_worker",
+            "class"
+        ],
+        "candidate_keys": [],
+        "non_categorical_string_attributes": [],
+        "attributes_in_BN": [
+            "checking_status",
+            "duration",
+            "credit_history",
+            "purpose",
+            "credit_amount",
+            "savings_status",
+            "employment",
+            "installment_commitment",
+            "personal_status",
+            "other_parties",
+            "residence_since",
+            "property_magnitude",
+            "age",
+            "other_payment_plans",
+            "housing",
+            "existing_credits",
+            "job",
+            "num_dependents",
+            "own_telephone",
+            "foreign_worker",
+            "class"
+        ]
+    },
+    "attribute_description": {
+        "checking_status": {
+            "name": "checking_status",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 11,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "<0",
+                "0<=X<200",
+                "no checking",
+                ">=200"
+            ],
+            "distribution_probabilities": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "duration": {
+            "name": "duration",
+            "data_type": "Integer",
+            "is_categorical": false,
+            "is_candidate_key": false,
+            "min": 4,
+            "max": 72,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                4.0,
+                72.0
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        },
+        "credit_history": {
+            "name": "credit_history",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 8,
+            "max": 30,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "critical/other existing credit",
+                "existing paid",
+                "delayed previously",
+                "no credits/all paid",
+                "all paid"
+            ],
+            "distribution_probabilities": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ]
+        },
+        "purpose": {
+            "name": "purpose",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 5,
+            "max": 19,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "radio/tv",
+                "education",
+                "furniture/equipment",
+                "new car",
+                "used car",
+                "business",
+                "domestic appliance",
+                "repairs",
+                "other",
+                "retraining"
+            ],
+            "distribution_probabilities": [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+            ]
+        },
+        "credit_amount": {
+            "name": "credit_amount",
+            "data_type": "Integer",
+            "is_categorical": false,
+            "is_candidate_key": false,
+            "min": 250,
+            "max": 18424,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                250.0,
+                18424.0
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        },
+        "savings_status": {
+            "name": "savings_status",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 4,
+            "max": 16,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "no known savings",
+                "<100",
+                "500<=X<1000",
+                ">=1000",
+                "100<=X<500"
+            ],
+            "distribution_probabilities": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ]
+        },
+        "employment": {
+            "name": "employment",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 10,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                ">=7",
+                "1<=X<4",
+                "4<=X<7",
+                "unemployed",
+                "<1"
+            ],
+            "distribution_probabilities": [
+                0.2,
+                0.2,
+                0.2,
+                0.2,
+                0.2
+            ]
+        },
+        "installment_commitment": {
+            "name": "installment_commitment",
+            "data_type": "Integer",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 1,
+            "max": 4,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                4,
+                2,
+                3,
+                1
+            ],
+            "distribution_probabilities": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "personal_status": {
+            "name": "personal_status",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 11,
+            "max": 18,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "male single",
+                "female div/dep/mar",
+                "male div/sep",
+                "male mar/wid"
+            ],
+            "distribution_probabilities": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "other_parties": {
+            "name": "other_parties",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 4,
+            "max": 12,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "none",
+                "guarantor",
+                "co applicant"
+            ],
+            "distribution_probabilities": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ]
+        },
+        "residence_since": {
+            "name": "residence_since",
+            "data_type": "Integer",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 1,
+            "max": 4,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                4,
+                2,
+                3,
+                1
+            ],
+            "distribution_probabilities": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "property_magnitude": {
+            "name": "property_magnitude",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 3,
+            "max": 17,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "real estate",
+                "life insurance",
+                "no known property",
+                "car"
+            ],
+            "distribution_probabilities": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "age": {
+            "name": "age",
+            "data_type": "Integer",
+            "is_categorical": false,
+            "is_candidate_key": false,
+            "min": 19,
+            "max": 75,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                19.0,
+                75.0
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        },
+        "other_payment_plans": {
+            "name": "other_payment_plans",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 4,
+            "max": 6,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "none",
+                "bank",
+                "stores"
+            ],
+            "distribution_probabilities": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ]
+        },
+        "housing": {
+            "name": "housing",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 3,
+            "max": 8,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "own",
+                "for free",
+                "rent"
+            ],
+            "distribution_probabilities": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ]
+        },
+        "existing_credits": {
+            "name": "existing_credits",
+            "data_type": "Integer",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 1,
+            "max": 4,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                2,
+                1,
+                3,
+                4
+            ],
+            "distribution_probabilities": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "job": {
+            "name": "job",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 7,
+            "max": 25,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "skilled",
+                "unskilled resident",
+                "high qualif/self emp/mgmt",
+                "unemp/unskilled non res"
+            ],
+            "distribution_probabilities": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "num_dependents": {
+            "name": "num_dependents",
+            "data_type": "Integer",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 1,
+            "max": 2,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                1,
+                2
+            ],
+            "distribution_probabilities": [
+                0,
+                0
+            ]
+        },
+        "own_telephone": {
+            "name": "own_telephone",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 3,
+            "max": 4,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "yes",
+                "none"
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        },
+        "foreign_worker": {
+            "name": "foreign_worker",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 3,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "yes",
+                "no"
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        },
+        "class": {
+            "name": "class",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 3,
+            "max": 4,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "good",
+                "bad"
+            ],
+            "distribution_probabilities": [
+                0.5,
+                0.5
+            ]
+        }
+    }
+}

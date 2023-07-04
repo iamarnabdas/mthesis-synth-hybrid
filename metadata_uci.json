@@ -1,0 +1,101 @@
+{
+    "METADATA_SPEC_VERSION": "SINGLE_TABLE_V1",
+    "columns": {
+        "ID": {
+            "sdtype": "id"
+            
+        },
+        "LIMIT_BAL": {
+            "sdtype": "numerical", 
+            "computer_representation": "Float"
+        },
+        "SEX": {
+            "sdtype": "categorical"
+        }, 
+        "EDUCATION": {
+            "sdtype": "categorical"
+        },
+        "MARRIAGE": {
+            "sdtype": "categorical"
+        },
+        "AGE": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_0": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_2": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_3": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_4": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_5": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "PAY_6": {
+            "sdtype": "numerical", 
+            "computer_representation": "Int64"
+        },
+        "BILL_AMT1": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "BILL_AMT2": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "BILL_AMT3": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "BILL_AMT4": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "BILL_AMT5": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "BILL_AMT6": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT1": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT2": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT3": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT4": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT5": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "PAY_AMT6": {
+            "sdtype": "numerical",
+            "computer_representation": "Float"
+        },
+        "default.payment.next.month": {
+            "sdtype": "categorical"
+        }
+    }
+}
